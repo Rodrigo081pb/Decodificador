@@ -1,0 +1,80 @@
+
+:root {
+    --color-light-50: #f8fafc;
+    --color-dark-100: #797984;
+    --color-dark-200: #312d37;
+    --color-dark-300: #000;
+
+    --color-purple-50: #7c3aed;
+    --color-purple-100: #a855f7;
+    --color-purple-200: #bf46ef;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_body{
+    height: 100vh;
+    width: 100%;
+    background: var(--color-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_big_card{
+
+    height: 90%;
+    width: 80%;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+
+    background-color: var(--color-light-50);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+
+}
+
+.card{
+    height: 95%;
+    width: 100%;
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.title{
+    margin: 5px;
+    align-items: center;
+    justify-content: center;    
+    
+    color: black;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.linha{
+    width: 125%;
+    margin-left: -14%;
+    border-bottom: 1px solid #000000;
+    margin-top: 10px;
+}
